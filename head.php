@@ -327,9 +327,9 @@
                 </ol>
             </div>
         </div>
-<h1>THIS TEST</h1>
+
 <?php
-//$pdo = new PDO("sqlite:BB.db");
+$pdo = new PDO("sqlite:BB.db");
 $final = 300;
 $success = 150;
 ?>
