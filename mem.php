@@ -1,5 +1,5 @@
 <?php include 'head.php';
-echo 'test';
+
 if ((int)$_GET['id']) {
     $id = (int)$_GET['id'];
     $pdo = $pdo->prepare("SELECT * FROM students WHERE id=$id");
