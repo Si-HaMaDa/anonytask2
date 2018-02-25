@@ -1,4 +1,4 @@
-<?php include 'head.php';
+<?php //include 'head.php';
 
 if ((int)$_GET['id']) {
     $id = (int)$_GET['id'];
