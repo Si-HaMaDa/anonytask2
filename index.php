@@ -1,6 +1,12 @@
 <?php
 include 'head.php';
 echo 'test';
+echo 'test';
+echo 'test';
+echo 'test';
+
+
+
 if ( isset($_POST['get']) ) {
     $from = ((int)$_POST['from'] / 100) * 300;
     $to   = ((int)$_POST['to'] / 100) * 300;
